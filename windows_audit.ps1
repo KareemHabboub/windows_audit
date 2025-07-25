@@ -1,3 +1,5 @@
+#requires -RunAsAdministrator
+
 # Create logs directory if it doesn't exist
 $logDir = ".\logs"
 if (!(Test-Path $logDir)) {
